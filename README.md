@@ -1,7 +1,7 @@
 # Coding-Quiz-
 
 # Deployed URL
-https://nolandc5.github.io/Coding-Quiz-/
+
 
 # Description
 Simple site that allows users to take a coding quiz then allows them to record their score

@@ -7,15 +7,15 @@ header {
     justify-content: space-between;
     background:white;
     margin: 5px;
-    color: purple;
-    font-weight: lighter;
+    color: black;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
   }
 
 header h2 {
     padding-left: 20px;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 header div {
@@ -29,6 +29,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section div {
@@ -57,7 +58,6 @@ section div button {
     padding: 20px;
     background-color: darkblue;
     color: white;
-    border-radius: 15px;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -66,8 +66,7 @@ section div button {
     cursor: pointer;
     outline: none;
     border: none;
-    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
-                0px 6px 10px 0 rgba(0,0,0,0.1);
+
 }
 
 
@@ -93,25 +92,23 @@ section div button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.option-buttons {
+.answerbuttons {
     margin-left: 375px;
     padding: 20px;
     margin-bottom: 10px;
     background-color: darkblue;
     width: 50vw;
     color: white;
-    border-radius: 15px;
     font-size: 20px;
     cursor: pointer;
     outline: none;
     border: none;
-    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
-                0px 6px 10px 0 rgba(0,0,0,0.1);
 }
 
-.option-buttons:hover {
+.answerbuttons:hover {
     background-color: orchid;
     transition: 0.2s;
 }
@@ -127,12 +124,11 @@ section div button:hover {
 }
 
 
-.submit-btn {
+.submitbutton {
     margin-left: 20px;
     padding: 10px;
     background-color:darkblue;
     color: white;
-    border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
     outline: none;
